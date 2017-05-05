@@ -1,0 +1,22 @@
+---------搭建开发环境：
+---导入开发包
+	1.dom4j
+	2.jstl
+	3.beanUtils
+	4.log4j
+	
+---创建组织程序的包
+	1.domainbean放javabean
+	2.dao存放访问数据库接口
+	3.dao.imple存放访问数据库的接口的实现类
+	4.service存放对数据进行处理接口
+	5.service.imple存放对数据处理接口的实现类
+	6.web.controller处理请求的servlet
+	7.web.UIservlet可视的servlet转发
+	8.util工具类
+	9.junit.test测试类
+	10.WEBINF/jsp文件的保存
+	
+---创建代表数据库的xml
+	类目录下代表数据库的users.xml
+
